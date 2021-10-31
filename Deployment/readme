@@ -1,0 +1,10 @@
+#Requirment for heroku deployment
+
+#install gunicorn in your env
+#create a requirement.txt file (pip freeze > Requirement.txt   run this command after activating your env)
+#create file call Procfile (app name is main python file name if it is test then web : gunicorn app:test)
+#upload all files to github
+#git clone link to github repository
+#git add .
+#git commit . -m 'deployment'
+#git push
